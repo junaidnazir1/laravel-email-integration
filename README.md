@@ -1,3 +1,16 @@
+Make these Changes in the env file
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.googlemail.com
+MAIL_PORT=465
+MAIL_USERNAME=ENTER_YOUR_EMAIL_ADDRESS(GMAIL)
+MAIL_PASSWORD=AppPassword
+MAIL_ENCRYPTION=ssl
+
+we configured MAIL_DRIVER as smtp, MAIL_HOST for Gmail as smtp.googlemail.com, MAIL_ PORT for Gmail as 465 and MAIL_ENCRYPTION method as ssl.
+The MAIL_USERNAME and PASSWORD should be replaced with your Gmail Email address and Password respectively.
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
